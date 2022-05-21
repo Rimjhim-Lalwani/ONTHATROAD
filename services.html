@@ -2,10 +2,12 @@
 <html>
 <head>
     <title>ON THAT ROAD.com</title>
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-<link rel="stylesheet" href="style33.css"/>
+ <link rel="stylesheet" href="style33.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -13,18 +15,18 @@
 
     <div id="menu-bar" class="fas fa-bars"></div>
 
-    <a href="#" class="logo"><img src="logo_.png" height="150px" width="200px"></a>
+    <a href="#" class="logo"><img src="images/logo_.png" height="150px" width="200px">
+       </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
     <nav class="navbar">
         <a href="home.html">home</a>
-        <a href="book.html">book</a>
-		<a href="abt.html">about us</a>
+        <a href="home.html#about">about us</a>
+        <a href="home.html#review">reviews</a>
         <a href="packages.html">packages</a>
+        
         <a href="services.html">services</a>
-        <a href="gallery.html">gallery</a>
-        <a href="review.html">review</a>
-        <a href="contact.html">contact</a>
+        <a href="services.html#book">book</a>
+        <a href="services.html#contact">contact</a>
     </nav>
 
     <div class="icons">
@@ -39,16 +41,49 @@
 
 </header>
 
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+
+
+<!-- home section starts  -->
+
+
+<!-- Container element -->
+<div class="parallax_1" >
+<section class="home" id="home">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    
+
 <section class="services" id="services">
 <br>
 <br>
-<br>
-<br><br>
-<br>
-<br>
-<br><br>
-<br>
-<br>
+
+
+
     <h1 class="heading">
         <span>s</span>
         <span>e</span>
@@ -95,7 +130,178 @@
 
     </div>
 
+</section></section><br><br><br><br><br><br><br><br></div><div style="height:70px; background-color: rgba(0, 0, 0, 0.37);"></div><br><br><br><br>
+<div style="display:inline;" align="center"><video src="images/vid-6.mp4" height="650px" width="800px" loop autoplay muted></video></div>
+  <div style="display:inline;"> <img src="images/P-3.png" height="650px" width="700px">
+
+</div><br><br><br><br><br><br><br><br>
+<section class="book" id="book">
+    
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+    
+        <div class="row">
+    
+            <div class="video" ><image src='images/P-1.png' height="500px" width="600px">             
+            </div>
+    
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" min="1" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+               <button class="btn" id="myBtn">book now</button>
+            </form>
+    
+        </div>
+    
+    </section>
+    </div><div>
+<br><br><br><br><br><br>
+</div>
+<div class="payment-gateway" id="payment"> 
+        <div class="row_1">
+            
+            <div class="col-75"><span class="close">&times;</span>
+                
+                    
+                      <div class="container_1">
+                        <form action="/action_page.php">
+                        
+                          
+                              <div class="row_1">
+                                <div class="col-50">
+                              <h3>Billing Address</h3>
+                              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                              <input type="text" id="fname" name="firstname" placeholder="abc xyz">
+                              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                              <input type="text" id="email" name="email" placeholder="abc@example.com">
+                              <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                              <input type="text" id="adr" name="address" placeholder="542 A, 15th Street">
+                              <label for="city"><i class="fa fa-institution"></i> City</label>
+                              <input type="text" id="city" name="city" placeholder="Rajpura">
+                  
+                              <div class="row_1">
+                                <div class="col-50">
+                                  <label for="state">State</label>
+                                  <input type="text" id="state" name="state" placeholder="Punjab">
+                                </div>
+                                <div class="col-50">
+                                  <label for="zip">Zip</label>
+                                  <input type="text" id="zip" name="zip" placeholder="100001">
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col-50">
+                              <h3>Payment</h3>
+                              <label for="fname">Accepted Cards</label>
+                              <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                <i class="fa fa-cc-discover" style="color:orange;"></i>
+                              </div>
+                              <label for="cname">Name on Card</label>
+                              <input type="text" id="cname" name="cardname" placeholder="abc xyz">
+                              <label for="ccnum">Credit card number</label>
+                              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                              <label for="expmonth">Exp Month</label>
+                              <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                              <div class="row_1">
+                                <div class="col-50">
+                                  <label for="expyear">Exp Year</label>
+                                  <input type="text" id="expyear" name="expyear" placeholder="2022">
+                                </div>
+                                <div class="col-50">
+                                  <label for="cvv">CVV</label>
+                                  <input type="text" id="cvv" name="cvv" placeholder="352">
+                                </div>
+                                <div class="col-50">
+                                    <h3>total amount to be paid:
+      
+                                    </h3>&nbsp;<select><option>₹18000(Mumbai)</option>
+                                      <option>₹1,49,999(Hawaii)</option>
+                                      <option>₹90,000(Sydney)</option>
+                                      <option>₹2,00,000(Paris)</option>
+                                      <option>₹1,50,000(Tokyo)</option>
+                                      <option>₹1,20,000(Egypt)</option>
+                                    </select>
+    </div>
+                              </div>
+                            </div>
+                            
+                               
+                          </div>
+                         
+                          <a href="payment.html"><input type="button" value="Continue to checkout" class="btn"></a>
+                        </form>
+                      </div>
+                    </div>
+          </div>
+          </div>
+  
+
+</div>
+
+<div  align="center"><image src="images/3.png" height="250px" width="1000px" ></div>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/P-2.png" alt="" width="600px">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name" required>
+                <input type="email" placeholder="email" required>
+            </div>
+            <div class="inputBox">
+                <input type="tel" placeholder="contact number" required>
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
 </section>
+
+<!-- footer section  -->
 <section class="brand-container">
 
     <div class="swiper-container brand-slider">
@@ -110,14 +316,12 @@
     </div>
 
 </section>
-<!-- footer section  -->
 
 <section id="footer" class="footer">
 
     <div class="box-container" >
                <div class="box">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                   <img src="logo_.png" alt="logo" height="150px" width="200px" >
-                   <p style="font-family:gigi;font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A page for <b>travel freaks</b></p>
+                   <img src="images/logo_5.png" alt="logo" height="200px" width="250px" >
                </div>
                <div class="box"> 
                    <h3>Office <div class="underline"><span></span></div></h3><br><br>
@@ -131,13 +335,13 @@
                    <h3>Links <div class="underline"><span></span></div></h3>
                    <ul><br><br>
                     <li><a href="home.html">Home</a></li>
-					<li><a href="book.html">Book</a></li>
-                    <li><a href="abt.html">About Us</a></li>
-					<li><a href="services.html">Services</a></li>
+				    <li><a href="home.html#about">About Us</a></li>
+                    <li><a href="home.html#review">Reviews</a></li>
                     <li><a href="packages.html">Packages</a></li>
-                    <li><a href="blog.html">Gallery</a></li>
-					<li><a href="review.html">Reviews</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                   
+                    <li><a href="services.html">Services</a></li>
+					<li><a href="services.html#book">Book</a></li>
+                    <li><a href="services.html#contact">Contact</a></li>
                    </ul>
                </div>
                <div class="box">
@@ -166,11 +370,7 @@
            <div class="made"><p>Made with ♡ by <b>Web Burners</b></p></div>
 
 </section>
-
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
+<script src="script.js"></script>
 </body>
 </html>
